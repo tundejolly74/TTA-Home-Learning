@@ -1,14 +1,14 @@
 # Write a program that asks the user for their favorite number
 favnum = int(input("what is your favorite number between 1 and 100? "))
-print("favnum")
-joke = input("Well, I was about giving you $100 if you picked a better number, lol")
-print(joke)
-secondjoke  = input("Why 24!? was that your IQ score")
 
-print(secondjoke )
-thirdjoke = input("since you chose 24, you can go ahead and have this 24 cents, LOL")
-print(thirdjoke)
-
+if favnum > 90:
+    print("you suck at numbers, LOL")
+    
+elif favnum < 90:
+    print("Is that your IQ scores")
+    
+else:
+    print("I was going to give you 100bucks, if you choose a good number like 23")
 
 
 
